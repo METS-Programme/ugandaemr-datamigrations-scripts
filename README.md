@@ -8,6 +8,11 @@ The mappings are column numbers mapped to UgandaEMR concepts
 
 We will add all the concepts and descriptions which you can then edit to just add the corresponding column in the data
 
+### Assumptions
+
+mysql-python must be installed
+You already have a running UgandaEMR
+
 ### The import process
 
 ```python
