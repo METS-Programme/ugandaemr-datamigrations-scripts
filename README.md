@@ -46,12 +46,12 @@ Assumption is that each csv file has a column that identifies a patient uniquely
 
 
 1. First register patients
-..* The first argument takes the data that to be imported, for our case we read a csv file
-..* The second argument is the names column number on the data, if the are more than one columns numbers should be put in a list
-..* The third argument is the column number corresponding to the gender
-..* The fourth argument is the column number corresponding to the birth date
-..* The fifth argument are address columns, country, district, county, sub_county, parish, village in that order if not applicable just put None
-..* The last argument is dictionary of identifiers, the key is the column corresponding to column in the data, and the value is identifier_type id in UgandaEMR
+    * The first argument takes the data that to be imported, for our case we read a csv file
+    * The second argument is the names column number on the data, if the are more than one columns numbers should be put in a list
+    * The third argument is the column number corresponding to the gender
+    * The fourth argument is the column number corresponding to the birth date
+    * The fifth argument are address columns, country, district, county, sub_county, parish, village in that order if not applicable just put None
+    * The last argument is dictionary of identifiers, the key is the column corresponding to column in the data, and the value is identifier_type id in UgandaEMR
 
 
 
