@@ -26,8 +26,10 @@ class Database:
 
     def insert_bulk(self, q, data):
         try:
-            self.cursor.executemany(q, data)
-            self.connection.commit()
+            chunks = [data[x:x + 500] for x in xrange(0, len(data), 500)]
+            for c in chunks:
+                self.cursor.executemany(q, c)
+                self.connection.commit()
         except MySQLdb.Error, e:
             self.connection.rollback()
             try:

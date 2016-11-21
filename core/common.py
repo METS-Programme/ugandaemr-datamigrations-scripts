@@ -1,5 +1,6 @@
 no_yes = {'NO': '90004', 'YES': '90003'}
 no_yes_1 = {'No': '1066', 'Yes': '1065'}
+no_yes_pregnant = {'No': '90081', 'Yes': '90082'}
 relationship = {
     'AUNT/UNCLE': '90281', 'BROTHER/SISTER': '90285', 'CHILD': '90280',
     'COUSIN': '90286', 'FRIEND': '5618', 'GRANDCHILD': '90284', 'GRANDPARENT': '90283',
@@ -7,7 +8,10 @@ relationship = {
     'SPOUSE/PARTNER': '90288'
 }
 mode_of_delivery = {
-    'BREECH': '1172', 'CESAREAN SECTION': '1171', 'Forceps or Vacuum Extractor Delivery': '163005', 'Other': '5622',
+    'BREECH': '1172',
+    'CESAREAN SECTION': '1171',
+    'Forceps or Vacuum Extractor Delivery': '163005',
+    'Other': '5622',
     'SPONTANEOUS VAGINAL DELIVERY/NORMAL': '1170'
 }
 mothers_arvs_for_pmtct = {
@@ -103,8 +107,8 @@ immunization_codes = {
     'OPV-3': '162834',
     'DPT': '781',
     'DPT-Hep+Hib1': '162835',
-    'DPT- HepB + Hib2': '162836',
-    'DPT- HepB + Hib3': '162837',
+    'DPT-HepB + Hib2': '162836',
+    'DPT-HepB + Hib3': '162837',
     'MEASLES': '63',
     'De-Worming': '162838',
     'Vitamin A': '99356',
@@ -141,4 +145,77 @@ drugs = {
     'Septrin': '916',
     'Vit B Complex': '329',
     'Other specify': '90002',
+}
+
+tb_status = {
+    'No signs/1': '90079',
+    'Suspect/2': '90073',
+    'Diagnosed with Tb/3': '90078',
+    'Tb Rx/4': '90071'
+}
+
+side_effects = {
+    'AB/ABDOMINAL PAIN': '90100', 'Anaemia/ANEMIA': '90099',
+    'BN/BURNING': '90095',
+    'CNS/DIZZINESS': '90117',
+    'Diarrhoea/DIARRHOEA': '90092',
+    'FAT/FAT DISTRIBUTION CHANGES': '90116',
+    'Fatigue/FATIGUE': '90093',
+    'Headache/HEADACHE': '90094',
+    'Jaundice/JAUNDICE': '90115',
+    'Nausea/NAUSEA': '90091',
+    'Rash/RASH': '90098', 'Other specify:/OTHER SPECIFY': '90002',
+
+}
+
+symptoms = {
+    'Cough/COUGH': '90132',
+    'DB/BREATHING DIFFICULTY': '90133',
+    'Dementia/DEMENTIA': '90128',
+    'Enceph/ENCEPHALITIS': '90129',
+    'Fever/FEVER': '90131',
+    'GUD/GENITAL ULCER DISEASE': '90138',
+    'Headache/HEADACHE': '90094',
+    'IRIS/IMMUNE RECONSTITUTION INFLAMMATORY SYNDROME': '90134',
+    'Malaria/PRESUMED': '123',
+    'Pneumonia/PNEUMONIA': '90127',
+    'PID/PELVIC INFLAMMATORY DISEASE': '90137',
+    'RTI/RESPIRATORY TRACT INFECTION, NOS': '999',
+    'Thrush/THRUSH': '90130',
+    'UD/URETHRAL DISCHARGE': '90136',
+    'Ulcers/ULCERS': '90139',
+    'URTI/RESPIRATORY TRACT INFECTION, UPPER': '106',
+    'Weight loss/WEIGHT LOSS': '90135',
+    'Zoster/ZOSTER': '90126',
+    'KS/KAPOSIS SARCOMA': '507',
+    'CCM/MENINGITIS, CRYPTOCOCCAL': '1294',
+    'Other specify:/OTHER SPECIFY': '90002'
+}
+
+malnutrition = {
+    'MAM/MODERATE ACUTE MALNUTRITION': '99271',
+    'SAM/SEVERE ACUTE MALNUTRITION': '99272',
+    'SAMO/SEVERE ACUTE MALNUTRITION WITH OEDEMA': '99273',
+    'PWG/PA/POOR WEIGHT GAIN / POOR APPETITE': '99274',
+}
+clinical_stage = {
+    '1/HIV WHO CLINICAL STAGE 1': '90033',
+    '2/HIV WHO CLINICAL STAGE 2': '90034',
+    '3/HIV WHO CLINICAL STAGE 3': '90035',
+    '4/HIV WHO CLINICAL STAGE 4': '90036',
+    'T1/HIV WHO CLINICAL STAGE T1': '90293',
+    'T2/HIV WHO CLINICAL STAGE T2': '90294',
+    'T3/HIV WHO CLINICAL STAGE T3': '90295',
+    'T4/HIV WHO CLINICAL STAGE T4': '90296'
+}
+functional_status = {
+    'Amb/AMBULATORY': '90037',
+    'Work/WORKING': '90038',
+    'Bed/BEDRIDDEN': '90039'
+}
+
+adherence = {
+    'Good/GOOD ADHERENCE': '90156',
+    'Fair/FAIR ADHERENCE': '90157',
+    'Poor/POOR ADHERENCE': '90158'
 }
