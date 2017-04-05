@@ -1,0 +1,192 @@
+->EID Concept Type (162992),Visit 1 ->Visit 1 (162993)
+->EID Concept Type (162992),Visit 2 ->Visit 2 (162994)
+->EID Concept Type (162992),Visit 3 ->Visit 3 (162995)
+->EID Concept Type (162992),Visit 4 ->Visit 4 (162996)
+->EID Concept Type (162992),Visit 5 ->Visit 5 (162997)
+->EID Concept Type (162992),Visit 6 ->Visit 6 (162998)
+->EID Concept Type (162992),Visit 7 ->Visit 7 (162999)
+->EID Concept Type (162992),Visit 8 ->Visit 8 (163000)
+->EID Concept Type (162992),Visit 9 ->Visit 9 (163001)
+->EID Concept Type (162992),Visit 10 ->Visit 10 (163002)
+->EID Concept Type (162992),Visit 11 ->Visit 11 (163018)
+->EID Concept Type (162992),Visit 12 ->Visit 12 (163019)
+->EID Concept Type (162992),Visit 13 ->Visit 13 (163020)
+->EID Concept Type (162992),Visit 14 ->Visit 14 (163021)
+->EID Concept Type (162992),Visit 15 ->Visit 15 (163022)
+,
+->EID Visit 1 Appointment Date (99443),Date
+,
+->Age at EID Visit 1 (99449),Numeric
+,
+->HIV TEST (99080),->PCR Test (163006)
+->HIV TEST (99080),->Antibody Test (163007)
+,
+->Feeding Status at EID Visit 1 (99451),EBF ->BREASTFED EXCLUSIVELY (5526)
+->Feeding Status at EID Visit 1 (99451),RF ->REPLACEMENT FEEDING (99089)
+->Feeding Status at EID Visit 1 (99451),MF ->MIXED FEEDING (6046)
+->Feeding Status at EID Visit 1 (99451),CF ->Complementary Feeding (99791)
+->Feeding Status at EID Visit 1 (99451),W ->Weaning (99792)
+->Feeding Status at EID Visit 1 (99451),NLB ->No Longer Breastfeeding (99793)
+,
+->EID Immunisation Codes (162839),BCG ->BACILLE CAMILE-GUERIN VACCINATION (886)
+,
+->EID Immunisation Codes (162839),OPV-0 ->POLIO VACCINATION 0 (162831)
+,
+->EID Immunisation Codes (162839),OPV-1 ->POLIO VACCINATION 1 (162832)
+,
+->EID Immunisation Codes (162839),OPV-2 ->POLIO VACCINATION 2 (162833)
+,
+->EID Immunisation Codes (162839),OPV-3 ->POLIO VACCINATION 3 (162834)
+,
+->EID Immunisation Codes (162839),DPT ->DIPTHERIA TETANUS AND PERTUSSIS VACCINATION (781)
+,
+->EID Immunisation Codes (162839),DPT-Hep+Hib1 ->DPT-Hep+Hib1 (162835)
+,
+->EID Immunisation Codes (162839),DPT- HepB + Hib2 ->DPT- HepB + Hib2 (162836)
+,
+->EID Immunisation Codes (162839),DPT- HepB + Hib3 ->DPT- HepB + Hib3 (162837)
+,
+->EID Immunisation Codes (162839),MEASLES ->MEASLES (63)
+,
+->EID Immunisation Codes (162839),De-Worming ->De-Worming (162838)
+,
+->EID Immunisation Codes (162839),Vitamin A ->Vitamin A Supplement (99356)
+,
+->EID Immunisation Codes (162839),PCV-1 ->PCV1 (163014)
+,
+->EID Immunisation Codes (162839),PCV-2 ->PCV2 (163015)
+,
+->EID Immunisation Codes (162839),PCV-3 ->PCV3 (163016)
+,
+->EID Immunisation Codes (162839),Not Done ->OTHER SPECIFY (90002)
+,
+->Immunization Other Specify (162890),Text
+,
+->Height (5090),Numeric
+,
+->Weight (5089),Numeric
+,
+->EID Visit 1 Z-Score (99800),<-3 ->Z-Score1 (< -3) (99803)
+->EID Visit 1 Z-Score (99800),-3_<-1 ->Z-Score2 (-3_<-1) (99804)
+->EID Visit 1 Z-Score (99800),-1_1 ->Z-Score3 (-1_1) (99805)
+->EID Visit 1 Z-Score (99800),>1_3 ->Z-Score4 (>1_3) (99806)
+->EID Visit 1 Z-Score (99800),>3 ->Z-Score5 (>3) (99807)
+,
+->EID Visit 1 MUAC (99801),Red <11.5cm and/or Oedema Present ->RED (99028)
+->EID Visit 1 MUAC (99801),Yellow 11.5 -<12.5cm and Oedema Absent ->YELLOW (99029)
+->EID Visit 1 MUAC (99801),Green >=12.5cm and Oedema Absent ->GREEN (99027)
+,
+->Clinical Assessment Codes (162853),WELL: NO clinical signs or symptoms ->No clinical Symptoms and Signs (162848)
+,
+->Clinical Assessment Codes (162853),LN: Palpable Lymph Nodes ->Palpable Lymph Nodes (162847)
+,
+->Clinical Assessment Codes (162853),WL: Weight loss ->Weight loss (832)
+,
+->Clinical Assessment Codes (162853),F: Fever ->FEVER (90103)
+,
+->Clinical Assessment Codes (162853),OT: Oral thrush ->THRUSH (90130)
+,
+->Clinical Assessment Codes (162853),EI: Ear Infection ->Ear Infection (162849)
+,
+->Clinical Assessment Codes (162853),G: Poor growth (height) ->Poor Growth (Height) (162850)
+,
+->Clinical Assessment Codes (162853),C: Coughing ->COUGH (107)
+,
+->Clinical Assessment Codes (162853),ADR: Acue Diarrhea ->ACUTE DIARRHEA (162851)
+,
+->Clinical Assessment Codes (162853),RDR: Recurrent Diarrhea ->Recurrent Diarrhea (162852)
+,
+->Clinical Assessment Codes (162853),"PNEU: Pneumonia ->PNEUMONIA, TUBERCULOUS (42)"
+,
+->Clinical Assessment Codes (162853),RASH: Skin Rash ->Rash (512)
+,
+->Clinical Assessment Codes (162853),Others (specify) ->OTHER SPECIFY (90002)
+,
+->Other Clinical Assessment Codes (163008),Text
+,
+->Development Milestone (162864),Smilling ->Smilling (162855)
+,
+->Development Milestone (162864),Sitting ->Sitting (162857)
+,
+->Development Milestone (162864),Walking ->Walking (162856)
+,
+->Development Milestone (162864),Controling the head ->Controling the head (162858)
+,
+->Development Milestone (162864),Transfer Objects from one hand to hand ->Transfer Objects from one hand to hand (162859)
+,
+->Development Milestone (162864),Cognition (point to 3 familiar objects) ->Cognition (point to 3 familiar objects) (162860)
+,
+->Development Milestone (162864),Rolling Over ->Rolling Over (162861)
+,
+->Development Milestone (162864),Crawl ->Crawl (162862)
+,
+->Development Milestone (162864),Stand ->Stand (162863)
+,
+->HEAD CIRCUMFERENCE (5314),Numeric
+,
+->CTX given at EID Visit 1 (99798),->NO (90004)
+->CTX given at EID Visit 1 (99798),->YES (90003)
+,
+->NVP given at EID Visit 1 (99799),->NO (90004)
+->NVP given at EID Visit 1 (99799),->YES (90003)
+,
+->Refiil of ART for the Mother (162854),->NO (90004)
+->Refiil of ART for the Mother (162854),->YES (90003)
+,
+->CURRENT DRUGS USED (1193),Amitriptilline ->AMITRYPTILINE (931)
+,
+->CURRENT DRUGS USED (1193),Amoxicillin ->AMOXICILLIN (265)
+,
+->CURRENT DRUGS USED (1193),Cetrizine ->CETIRIZINE (779)
+,
+->CURRENT DRUGS USED (1193),Ciprofloxacine ->CIPROFLOXACIN (740)
+,
+->CURRENT DRUGS USED (1193),Cloxacillin ->CLOXACILLIN (922)
+,
+->CURRENT DRUGS USED (1193),Coartem ->ARTEMETHER/LUMEFANTRINE (99266)
+,
+->CURRENT DRUGS USED (1193),Dapsone ->DAPSONE (90171)
+,
+->CURRENT DRUGS USED (1193),Doxycycline ->DOXYCYCLINE (95)
+,
+->CURRENT DRUGS USED (1193),EH ->ETHAMBUTOL AND ISONIZAID (1108)
+,
+->CURRENT DRUGS USED (1193),Erythromicin ->ERYTHROMYCIN (272)
+,
+->CURRENT DRUGS USED (1193),Fluconazole ->FLUCONAZOLE (747)
+,
+->CURRENT DRUGS USED (1193),Ibuprofen ->IBUPROFEN (912)
+,
+->CURRENT DRUGS USED (1193),Ketoconazole ->KETOCONAZOLE (926)
+,
+->CURRENT DRUGS USED (1193),Mebendazole ->MEBENDAZOLE (244)
+,
+->CURRENT DRUGS USED (1193),Metronidazole ->METRONIDAZOLE (237)
+,
+->CURRENT DRUGS USED (1193),Multivitamins ->MULTIVITAMIN (461)
+,
+->CURRENT DRUGS USED (1193),Nutrition Support ->NUTRITION SUPPORT AND INFANT FEEDING (99054)
+,
+->CURRENT DRUGS USED (1193),Nystatin ->NYSTATIN (919)
+,
+->CURRENT DRUGS USED (1193),Paracetamol ->PARACETAMOL (89)
+,
+->CURRENT DRUGS USED (1193),RH ->RIFAMPICIN AND ISONIAZID (1194)
+,
+->CURRENT DRUGS USED (1193),RHE ->RIFAMPICIN ISONIAZID AND ETHAMBUTOL (99127)
+,
+->CURRENT DRUGS USED (1193),RHZ ->RIFAMPICIN ISONIAZID AND PYRAZINAMIDE (768)
+,
+->CURRENT DRUGS USED (1193),RHZE ->RIFAMPICIN ISONIAZID PYRAZINAMIDE AND ETHAMBUTOL (1131)
+,
+->CURRENT DRUGS USED (1193),RHZES ->RIFAMPICIN ISONIAZID PYRAZINAMIDE ETHAMBUTOL AND STREPTOMYCIN (99128)
+,
+->CURRENT DRUGS USED (1193),Septrin ->TRIMETHOPRIM AND SULFAMETHOXAZOLE (916)
+,
+->CURRENT DRUGS USED (1193),Vit B Complex ->VITAMIN B COMPLEX (329)
+,
+->CURRENT DRUGS USED (1193),Other specify: ->OTHER SPECIFY (90002)
+,
+->OTHER MEDICATIONS DISPENSED (99035),Text
+,
+->EID ACTION(S) TAKEN (162865),Text

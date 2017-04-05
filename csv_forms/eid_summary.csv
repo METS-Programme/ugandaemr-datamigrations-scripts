@@ -1,0 +1,216 @@
+->ENTRY POINT INTO HIV CARE (90200),eMTCT ->PMTCT (90012)
+->ENTRY POINT INTO HIV CARE (90200),TB ->TB TREATMENT CENTER (90016)
+->ENTRY POINT INTO HIV CARE (90200),YCC ->YCC-Young child clinic (99593)
+->ENTRY POINT INTO HIV CARE (90200),Outreach ->IDU OUTREACH (90019)
+->ENTRY POINT INTO HIV CARE (90200),Out Patient ->MEDICAL OUTPATIENT (90013)
+->ENTRY POINT INTO HIV CARE (90200),STI ->STI OUTPATIENT (90015)
+->ENTRY POINT INTO HIV CARE (90200),Inpatient ->MEDICAL INPATIENT (90018)
+->ENTRY POINT INTO HIV CARE (90200),Other ->OTHER SPECIFY (90002)
+,
+->Date of NVP initiation (99771),Date
+,
+->Date of Cotrim initiation (99773),Date
+,
+->EID Mother's first Name (99776),Text
+,
+->EID Mother's surname (99775),Text
+,
+->EID Mother's Telephone No. (162889),Text
+,
+->EID Mother's District (162884),Text
+,
+->EID Mother's County (162885),Text
+,
+->EID Mother's Sub County (162886),Text
+,
+->EID Mother's Village (162887),Text
+,
+->EID Mother's Parish (162888),Text
+,
+->PATIENT VILLAGE (99137),Text
+,
+->Outreach Introduction Method (162867),Text
+,
+->LC1 Chairman (162866),Text
+,
+->Directions to caregiver's home address (162868),Text
+,
+->Alternative Contact Person (162869),Text
+,
+Relationship: ->RELATIONSHIP (90269),->AUNT/UNCLE (90281)
+Relationship: ->RELATIONSHIP (90269),->BROTHER/SISTER (90285)
+Relationship: ->RELATIONSHIP (90269),->CHILD (90280)
+Relationship: ->RELATIONSHIP (90269),->COUSIN (90286)
+Relationship: ->RELATIONSHIP (90269),->FRIEND (5618)
+Relationship: ->RELATIONSHIP (90269),->GRANDCHILD (90284)
+Relationship: ->RELATIONSHIP (90269),->GRANDPARENT (90283)
+Relationship: ->RELATIONSHIP (90269),->NIECE/NEPHEW (90282)
+Relationship: ->RELATIONSHIP (90269),->NOT FAMILY (90287)
+Relationship: ->RELATIONSHIP (90269),->PARENT (90279)
+Relationship: ->RELATIONSHIP (90269),->SPOUSE/PARTNER (90288)
+,
+->Alternative Telephone No. (162870),Text
+,
+->Has This Person been disclosed to? (162871),->NO (90004)
+,->YES (90003)
+,
+->Delivered By (99570),Text
+,
+->METHOD OF DELIVERY (5630),->BREECH (1172)
+->METHOD OF DELIVERY (5630),->CESAREAN SECTION (1171)
+->METHOD OF DELIVERY (5630),->Forceps or Vacuum Extractor Delivery (163005)
+->METHOD OF DELIVERY (5630),->Other (5622)
+->METHOD OF DELIVERY (5630),->SPONTANEOUS VAGINAL DELIVERY (1170)
+,
+->Mother received ARV for PMTCT (162872),Yes ->YES (90003)
+->Mother received ARV for PMTCT (162872),No ->NO (90004)
+->Mother received ARV for PMTCT (162872),Unknown ->UNKNOWN (90001)
+,
+->EID Mother's ANC No. (99777),Text
+,
+For ANC: ->Mother&#39;s ARVs for eMTCT - ANC (99783),->ART (163012)
+For ANC: ->Mother&#39;s ARVs for eMTCT - ANC (99783),->Life long ART (99786)
+For ANC: ->Mother&#39;s ARVs for eMTCT - ANC (99783),->NONE (1107)
+For ANC: ->Mother&#39;s ARVs for eMTCT - ANC (99783),->No ART (99782)
+For ANC: ->Mother&#39;s ARVs for eMTCT - ANC (99783),->Unknown (1067)
+For ANC: ->Mother&#39;s ARVs for eMTCT - ANC (99783),->sd NVP (163009)
+For ANC: ->Mother&#39;s ARVs for eMTCT - ANC (99783),->sd NVP + AZT (163010)
+For ANC: ->Mother&#39;s ARVs for eMTCT - ANC (99783),->sd NVP + AZT/3TC (163011)
+,
+During Labour/Delivery: ->Mother's ARVs for eMTCT - Delivery (99784),->ART (163012)
+During Labour/Delivery: ->Mother's ARVs for eMTCT - Delivery (99784),->Life long ART (99786)
+During Labour/Delivery: ->Mother's ARVs for eMTCT - Delivery (99784),->NONE (1107)
+During Labour/Delivery: ->Mother's ARVs for eMTCT - Delivery (99784),->No ART (99782)
+During Labour/Delivery: ->Mother's ARVs for eMTCT - Delivery (99784),->Unknown (1067)
+During Labour/Delivery: ->Mother's ARVs for eMTCT - Delivery (99784),->sd NVP (163009)
+During Labour/Delivery: ->Mother's ARVs for eMTCT - Delivery (99784),->sd NVP + AZT (163010)
+During Labour/Delivery: ->Mother's ARVs for eMTCT - Delivery (99784),->sd NVP + AZT/3TC (163011)
+,
+Postnatal: ->Mother's ARVs for eMTCT - Postnatal (99785),->ART (163012)
+Postnatal: ->Mother's ARVs for eMTCT - Postnatal (99785),->Life long ART (99786)
+Postnatal: ->Mother's ARVs for eMTCT - Postnatal (99785),->NONE (1107)
+Postnatal: ->Mother's ARVs for eMTCT - Postnatal (99785),->No ART (99782)
+Postnatal: ->Mother's ARVs for eMTCT - Postnatal (99785),->Unknown (1067)
+Postnatal: ->Mother's ARVs for eMTCT - Postnatal (99785),->sd NVP (163009)
+Postnatal: ->Mother's ARVs for eMTCT - Postnatal (99785),->sd NVP + AZT (163010)
+Postnatal: ->Mother's ARVs for eMTCT - Postnatal (99785),->sd NVP + AZT/3TC (163011)
+,
+->Infant&amp;#39;s ARVs for eMTCT (99787),->Daily NVP from birth through b/feeding (163013)
+->Infant&amp;#39;s ARVs for eMTCT (99787),->Daily NVP from birth to 6 weeks (162966)
+->Infant&amp;#39;s ARVs for eMTCT (99787),->NVP taken after 72 hours of birth (99789)
+->Infant&amp;#39;s ARVs for eMTCT (99787),->No ARVs taken at birth (99790)
+->Infant&amp;#39;s ARVs for eMTCT (99787),->Received NVP within 72 hours of birth (99788)
+->Infant&amp;#39;s ARVs for eMTCT (99787),->Unknown (1067)
+->Infant&amp;#39;s ARVs for eMTCT (99787),->sd NVP (163009)
+->Infant&amp;#39;s ARVs for eMTCT (99787),->sd NVP + AZT (163010)
+,
+->Mother in care at an ART Clinic (162873),->NO (90004)
+->Mother in care at an ART Clinic (162873),->YES (90003)
+,
+ART Clinic ->Mother ART Clinic (162875),Text
+,
+->EID Mother's ART NO. (162874),Text
+,
+->Date of 1st PCR (99606),Date
+,
+->FS at 1st EID PCR Test (99434),->BREASTFED EXCLUSIVELY (5526)
+->FS at 1st EID PCR Test (99434),->Complementary Feeding (99791)
+->FS at 1st EID PCR Test (99434),->MIXED FEEDING (6046)
+->FS at 1st EID PCR Test (99434),->No Longer Breastfeeding (99793)
+->FS at 1st EID PCR Test (99434),->REPLACEMENT FEEDING (99089)
+->FS at 1st EID PCR Test (99434),->Weaning (99792)
+,
+->1st EID PCR Test Result (99435),->NEGATIVE (664)
+,->POSITIVE (703)
+,
+->Date of 1st EID PCR Test given to care provider (99438),Date
+,
+->Date of 2nd EID PCR Test (99436),Date
+,
+->FS at 2nd EID PCR Test (99794),->BREASTFED EXCLUSIVELY (5526)
+->FS at 2nd EID PCR Test (99794),->Complementary Feeding (99791)
+->FS at 2nd EID PCR Test (99794),->MIXED FEEDING (6046)
+->FS at 2nd EID PCR Test (99794),->No Longer Breastfeeding (99793)
+->FS at 2nd EID PCR Test (99794),->REPLACEMENT FEEDING (99089)
+->FS at 2nd EID PCR Test (99794),->Weaning (99792)
+,
+->2nd EID PCR Test Result (99440),->NEGATIVE (664)
+,->POSITIVE (703)
+,
+->Date 2nd EID PCR Test result given to care provider (99442),Date
+,
+->Repeat PCR Test Date (162876),Date
+,
+->FS at EID Repeat PCR Test (162877),->BREASTFED EXCLUSIVELY (5526)
+->FS at EID Repeat PCR Test (162877),->Complementary Feeding (99791)
+->FS at EID Repeat PCR Test (162877),->MIXED FEEDING (6046)
+->FS at EID Repeat PCR Test (162877),->No Longer Breastfeeding (99793)
+->FS at EID Repeat PCR Test (162877),->REPLACEMENT FEEDING (99089)
+->FS at EID Repeat PCR Test (162877),->Weaning (99792)
+,
+->EID Repeat PCR Test Result (162881),->NEGATIVE (664)
+->EID Repeat PCR Test Result (162881),->POSITIVE (703)
+,
+->Date Repeat EID PCR Test result given to care provider (162882),Date
+,
+->18 Months Raid PCR Test Date (162879),Date
+,
+->FS at 18 Month Raid Test (162878),->BREASTFED EXCLUSIVELY (5526)
+->FS at 18 Month Raid Test (162878),->Complementary Feeding (99791)
+->FS at 18 Month Raid Test (162878),->MIXED FEEDING (6046)
+->FS at 18 Month Raid Test (162878),->No Longer Breastfeeding (99793)
+->FS at 18 Month Raid Test (162878),->REPLACEMENT FEEDING (99089)
+->FS at 18 Month Raid Test (162878),->Weaning (99792)
+,
+->18 Month Raid EID PCR Test Result (162880),->NEGATIVE (664)
+->18 Month Raid EID PCR Test Result (162880),->POSITIVE (703)
+,
+->Date 18 Month Raid Test result given to care provider (162883),Date
+,
+->Final EID PCR Test Result (99797),->NEGATIVE (664)
+->Final EID PCR Test Result (99797),->POSITIVE (703)
+,
+->Final EID PCR Test Result (99797),POSITIVE ->POSITIVE (703)
+,
+->Date of final EID PCR test Result (99795),Date
+,
+->Referred for ART Clinic (99430),->Yes (1065)
+->Referred for ART Clinic (99430),->No (1066)
+,
+->EID Referred for ART Clinic Date (162981),Date
+,
+->enrolled in HIV care program (163004),->Yes (1065)
+->enrolled in HIV care program (163004),->No (1066)
+,
+->EID Care Enrollment Date (162980),Date
+,
+->Pre-ART number (99751),Text
+,
+->Presumptive Referral (163003),->YES (90003)
+->Presumptive Referral (163003),->NO (90004)
+,
+->EID Follow Up. First attempt date (162967),Date
+,
+->EID Follow Up. First attempt method (162968),Text
+,
+->EID Follow Up. First attempt outcome (162969),Text
+,
+->EID Follow Up. Second attempt date (162971),Date
+,
+->EID Follow Up. Second attempt method (162972),Text
+,
+->EID Follow Up. Second attempt outcome (162973),Text
+,
+->EID Follow Up. Third attempt date (162975),Date
+,
+->EID Follow Up. Third attempt method (162976),Text
+,
+->EID Follow Up. Third attempt outcome (162977),Text
+,
+->EID Final Outcome (99428),Discharged Negative ->Discharged Negative (99427)
+->EID Final Outcome (99428),Referred to ART Clinic ->Referred for ART Clinic (99430)
+->EID Final Outcome (99428),Lost (>6 Months) ->LOST TO FOLLOWUP (5240)
+->EID Final Outcome (99428),Transferred ->TRANSFERED OUT TO ANOTHER FACILITY (90306)
+->EID Final Outcome (99428),Died ->DEAD (99112)
+,
+->EID Final Outcome Date (162979),Date

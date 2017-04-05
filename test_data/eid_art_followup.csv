@@ -1,0 +1,10 @@
+uniqueno,eidnumber,vdate,scheduled,date,dur_art,dur_regimen,weight,height,muac,tbstatus,tbstart,tbstop,dtbnumber,sidefeffects,ois,function,whostage,cptadhere,Dosesep,pillprescribed,inh,othermeds,Adherence,adherewhy,regimen,dose_ARV,daysdispenced,cd4c,cd4p,Hgb,rpr,cxr,tb,sputum,abpcr,other,dayshosp,clinician's name
+,EXP10008,09-Sep-15,TRUE,02-Dec-15,38,,14,91.4,Green,1,,,,NILL,,Walking,II,,14,7,,MVITS,,,"abc,3tc,lpv/r",35,7,,,,,,,,,,,DR Lydia
+,EXP10008,25-Nov-15,FALSE,09-Sep-15,36,,13,91.6,Green,1,,,,NILL,,Ambulatory,II,,39,77,,"FLUCO, ASCL ACID",Good,,,308,77,1617,,,,,,,,,,DR Glorious
+,EXP10008,02-Dec-15,TRUE,16-Dec-15,,,13.8,93.3,15.9,1,,,,NILL,,Walking,II,,28,14,,,,,"abc,3tc,lpv/r",56,14,,,,,,,,,,,DR Lydia
+,EXP10008,16-Dec-15,TRUE,27-Jan-16,,,13.7,94,16,1,,,,NILL,,Walking,II,,84,42,,,Good,,"abc,3tc,lpv/r",168,42,,,,,,,,,,,DR Lydia
+,EXP10008,22-Jan-16,FALSE,18-Mar-16,,,14.1,94.2,15.9,2,,,,COUGH,,Walking,II,Good,,112,56,,Good,,"abc,3tc,lpv/r",280,56,,,,,,,,,,,DR Lydia
+,EXP10008,18-Mar-16,TRUE,15-Apr-16,41,,18.1,96.3,15.5,1,,,,NILL,,,,,,,,,,,"abc,3tc,lpv/r",28,14,,,,,,,,,,,DR Fairuzi Naiga
+,EXP10008,06-Apr-16,TRUE,13-Apr-16,41,,157,96.8,16.2,1,,,,NILL,,Walking,II,,14,7,,MVITS,Good,,"abc,3tc,lpv/r",14,7,,,,,,,,,,,DR Glorious
+,EXP10008,13-Apr-16,TRUE,27-May-16,42,,14,96.2,15.5,1,,,,NILL,,Walking,II,,,42,,,,,"abc,3tc,lpv/r",,42,,,,,,,,,,,DR Glorious
+,EXP10008,27-May-16,FALSE,19-Aug-16,43,,13.7,95.9,15,1,,,,NIL,,Walking,II,Good,,168,84,mvits,Good,,"abc,3tc,lpv/r",,84,,,,,,,,,,,DR Glorious
